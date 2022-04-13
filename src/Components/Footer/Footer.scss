@@ -1,0 +1,124 @@
+.footer {
+    background-color: #1263B0;
+    
+    &__wrapper {
+        padding: 60px 0 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    &__logoBox {
+        &--img{
+            margin-bottom: 20px;
+            width: 188px;
+        }
+        &--title {
+            width: 212px;
+            font-size: 12px;
+            line-height: 18px;
+            color: #FFFFFF;
+            opacity: 0.7;
+        }
+    }
+    &__nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__list{
+        margin-right: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+    &__subtitle{
+        margin-bottom: 20px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+    }
+    &__sublink{
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+    }
+    &__icon{
+        margin-right: 10px;
+    }
+    &__link{
+        margin-bottom: 20px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+        color: #FFFFFF;
+    }
+    &__subwrapper{
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        padding: 30px 0;
+    }
+    &__subtext{
+        color: rgba(255, 255, 255, 0.6);
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .footer{
+        &__list{
+            margin-right: 12vw;
+        }
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .footer{
+        &__logoBox{
+            &--img{
+                width: 130px;
+            }
+            &--title{
+                width: 180px;
+            }
+        }
+        &__list{
+            margin-right: 5vw;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer{
+        &__wrapper{
+            padding: 30px 0;
+            flex-wrap: wrap;
+        }
+        &__logoBox{
+            margin-bottom: 20px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &--img{
+                margin: 0;
+                margin-right: 50px;
+            }
+            &--title{
+                width: auto;
+            }
+        }
+        &__nav{
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        &__list{
+            margin-right: 12vw;
+            margin-bottom: 20px;
+        }
+        &__link{
+            opacity: 0.6;
+        }
+    }
+}

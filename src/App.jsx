@@ -12,6 +12,7 @@ import Articles from './Pages/Articles';
 import Journal from './Pages/Journal';
 import News from './Pages/News';
 import Certificates from './Pages/Certificates';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Route path="/news" element={<News />}/>
       <Route path="/certificates" element={<Certificates />}/>
     </Routes>
+      <Footer />
     </>
   )
 }
