@@ -1,0 +1,125 @@
+.header {
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    &__nav {
+        padding: 30px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__logo {
+        width: 188px;
+    }
+
+    &__link {
+        margin-right: 40px;
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+        opacity: 0.5;
+        transition: 0.5s;
+        border-bottom: 1px solid transparent;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        &:hover {
+            border-bottom: 1px solid #fff;
+            opacity: 1;
+        }
+    }
+
+    &__bar--open {
+        width: 24px;
+        display: none;
+        background-color: transparent;
+        border: none;
+
+        & img {
+            width: 24px;
+        }
+    }
+
+    &__bar {
+        display: none;
+    }
+
+    &__close {
+        background-color: transparent;
+        border: none;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .header {
+        &__logo {
+            width: 130px;
+        }
+
+        &__link {
+            margin-right: 20px;
+            font-size: 16px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        &__nav {
+            padding: 20px 0;
+        }
+
+        &__list {
+            display: none;
+        }
+
+        &__bar--open {
+            display: inline-block;
+        }
+
+        &__bar {
+            padding: 50px 40px;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            z-index: 9;
+            // display: flex;
+            background-color: #000;
+            flex-direction: column;
+            align-items: flex-end;
+
+            &--box {
+                margin-bottom: 40px;
+                display: flex;
+                align-items: center;
+            }
+
+            &--title {
+                margin-right: 20px;
+                font-size: 26px;
+                line-height: 21px;
+                color: #FFFFFF;
+            }
+        }
+
+        &__open {
+            display: flex;
+        }
+
+        &__mobile--link {
+            margin: 0;
+            margin-bottom: 20px;
+            color: #fff;
+            font-size: 24px;
+        }
+
+    }
+}

@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+        url('./Assets/fonts/roboto-v29-latin-regular.woff2') format('woff2'),
+        url('./Assets/fonts/roboto-v29-latin-regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+        url('./Assets/fonts/roboto-v29-latin-500.woff2') format('woff2'),
+        url('./Assets/fonts/roboto-v29-latin-500.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+        url('./Assets/fonts/roboto-v29-latin-700.woff2') format('woff2'),
+        url('./Assets/fonts/roboto-v29-latin-700.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+        url('./Assets/fonts/roboto-v29-latin-900.woff2') format('woff2'),
+        url('./Assets/fonts/roboto-v29-latin-900.woff') format('woff');
+}
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:  "Roboto", "Arial";
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+
+.container{
+    width: 1310px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
