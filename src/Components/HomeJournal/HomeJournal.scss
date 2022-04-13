@@ -1,0 +1,50 @@
+.hjournal{
+    margin-top: 100px;
+    &__title{
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 47px;
+        color: #333333;
+        border-bottom:  2px solid #333333;
+    }
+    &__list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__item{
+        width: 100%;
+        max-width: 298px;
+        margin: 40px 0 30px;
+        border: 1px solid rgba(196, 196, 196, 0.2);
+        box-sizing: border-box;
+        border-radius: 4px;
+        &-wrapper{
+            padding: 20px 25px 20px 20px;
+        }
+        &-title{
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 24px;
+            color: #242424;
+            opacity: 0.9;
+        }
+        &-box{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 15px;
+        }
+        &-date{
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16px;
+            color: rgba(24, 24, 24, 0.6);
+        }
+        &-btn{
+            border: none;
+            background-color: #fff;
+        }
+    }
+}

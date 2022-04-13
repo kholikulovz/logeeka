@@ -1,0 +1,90 @@
+.confcards{
+    margin: 120px 0;
+    &__btnbox{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    &__list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__box{
+        padding: 20px 30px 30px 30px;
+    }
+    &__item{
+        border: 1px solid rgba(23, 38, 110, 0.1);
+        border-radius: 4px;
+        width: 100%;
+        max-width: 396px;
+        &-img{
+            width: 100%;
+            max-width: 396px;
+        }
+        &-title{
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 28px;
+            color: #17266E;
+        }
+        &-datebox{
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 16px;
+            color: #526EFF;
+            margin: 20px 0 30px 0;
+        }
+        &-box{
+            // opacity: 0.05;
+            border-top: 1px solid  rgba($color: #242424, $alpha: 0.05);
+            padding-top: 20px;
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+        }
+        &-subbox{
+            display: flex;
+            align-items: center;
+        }
+        &-minbox{
+            margin-left: 10px;
+        }
+        &-name{
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16px;
+            color: #17266E;
+        }
+        &-profession{
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            opacity: 0.3;
+            margin-top: 6px;
+        }
+        &-watching{
+            display: flex;
+            align-items: center;
+            opacity: 0.3;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 16px;
+            color: #17266E;
+        }
+    }
+    &__btn{
+        margin: 47px 0 100px 0;
+        background: #1263B0;
+        border: 1px solid #246FB6;
+        border-radius: 4px;
+        padding: 20px 80px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}

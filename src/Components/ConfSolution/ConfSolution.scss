@@ -1,0 +1,39 @@
+.solution{
+    background-color: #F7F7F7;
+    border-radius: 2px;
+    padding: 93px 0;
+    margin-bottom: 120px;
+    &__wrapper{
+        background-image: url('../../Assets/img/soroq.png');
+        background-repeat:space;
+        background-position: center;
+        background-size: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    &__title{
+        font-weight: 600;
+        font-size: 52px;
+        line-height: 61px;
+        color: #333333;
+    }
+    &__text{
+        margin: 20px 0 50px 0;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        color: #333333;
+    }
+    &__btn{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #FFFFFF;
+        background: #1263B0;
+border-radius: 4px;
+padding: 20px 50px;
+    }
+}

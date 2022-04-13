@@ -1,0 +1,23 @@
+.artintro{
+    background-image: url('../../Assets/img/article-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    &__wrapper {
+        min-height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    &__title {
+        margin-bottom: 40px;
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 76px;
+        color: #FFFFFF;
+    }
+
+}
