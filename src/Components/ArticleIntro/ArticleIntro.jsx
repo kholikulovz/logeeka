@@ -1,6 +1,7 @@
 import React from 'react'
 
 import './ArticleIntro.scss'
+import Lupa from '../../Assets/img/search.svg';
 
 function ArticleIntro() {
   return (
@@ -8,10 +9,12 @@ function ArticleIntro() {
         <div className="container">
             <div className="artintro__wrapper">
                 <h1 className='artintro__title'>Articles</h1>
-                <form action="">
-                    <img src="" alt="" />
-                    <input type="search" placeholder='Search'/>
-                    <button>Send</button>
+                <form className='artintro__form' action="">
+                    <div className='artintro__box'>
+                    <img className='artintro__icon' src={Lupa} alt="" />
+                    <input className='artintro__input' type="search" placeholder='Search'/>
+                    </div>
+                    <button className='artintro__btn'>Send</button>
                 </form>
             </div>
         </div>

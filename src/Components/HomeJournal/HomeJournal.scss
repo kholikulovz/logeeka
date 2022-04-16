@@ -16,7 +16,7 @@
     &__item{
         width: 100%;
         max-width: 298px;
-        margin: 40px 0 30px;
+        margin: 40px 0 30px 0;
         border: 1px solid rgba(196, 196, 196, 0.2);
         box-sizing: border-box;
         border-radius: 4px;
@@ -45,6 +45,26 @@
         &-btn{
             border: none;
             background-color: #fff;
+        }
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .hjournal{
+        &__list{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+        &__item{
+            width: 100%;
+            min-width: 335px;
+            margin: 40px 0;
+            border: 1px solid rgba(196, 196, 196, 0.2);
+            box-sizing: border-box;
+            border-radius: 4px;
         }
     }
 }

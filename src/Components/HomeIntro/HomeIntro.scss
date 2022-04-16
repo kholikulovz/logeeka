@@ -140,3 +140,33 @@
         }
     }
 }
+@media screen and (max-width: 900px) {
+    .intro{
+        &__title {
+            font-weight: 700;
+            font-size: 52px;
+            line-height: 55px;
+        }
+        &__subtitle{
+            max-width: 700px;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 28px;
+        }
+    }
+}
+@media screen and (max-width: 428px) {
+    .intro{
+        &__title {
+            font-weight: 700;
+            font-size: 52px;
+            line-height: 55px;
+        }
+        &__subtitle{
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 34px;
+            text-align: left;
+        }
+    }
+}

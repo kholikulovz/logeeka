@@ -10,13 +10,14 @@
     &__list{
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: nowrap;
     }
     &__item{
         width: 100%;
         max-width: 620px;
-        margin: 40px 0;
+        margin: 40px 40px 40px 0;
         background: rgba(212, 212, 212, 0.01);
         border: 1px solid rgba(51, 51, 51, 0.1);
         box-sizing: border-box;
@@ -37,11 +38,20 @@
             margin: 20px 0 15px 0;
         }
         &-box{
+            display: block;
             font-weight: 400;
             font-size: 18px;
             line-height: 21px;
             color: #333333;
             opacity: 0.7;
+            &--res{
+                display: none;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 21px;
+                color: #333333;
+                opacity: 0.7;
+            }
         }
         &-line{
             margin: 0 5px;
@@ -57,5 +67,78 @@
     color: #333333;
     &-img{
         margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .harticle{
+        &__list{
+            flex-wrap: nowrap;
+        }
+        &__item{
+            margin: 40px 30px 40px 0;
+            padding: 20px;
+        }
+    }
+}
+@media screen and (max-width: 1024px) {
+    .harticle{
+        &__item{
+            margin: 40px 10px 40px 0;
+            padding: 15px 5px 15px 15px;
+            &-title{
+                font-weight: 500;
+                font-size: 28px;
+                line-height: 36px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .harticle{
+        &__list{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        &__item{
+            width: 100%;
+            max-width: 620px;
+        }
+    }
+}
+@media screen and (max-width: 510px) {
+    .harticle{
+        margin-top: 70px;
+        &__item{
+            padding: 28px 30px;
+            min-width: 335px;
+            min-height: 156px;
+            background: rgba(176, 176, 176, 0.1);
+            &-title{
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 24px;
+            }
+            &-name{
+                font-weight: 700;
+                font-size: 13px;
+                line-height: 16px;
+            margin: 20px 0 0;
+            }
+            &-box{
+                display: none;
+                &--res{
+                    display: block;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 16px;
+                    color: #242424;
+                    opacity: 0.76;
+                    margin-bottom: 10px;
+                }
+            }
+        }
     }
 }

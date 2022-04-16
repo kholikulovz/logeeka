@@ -1,5 +1,5 @@
-.jintro{
-    background-image: url('../../Assets/img/journal-bg.png');
+.contintro{
+    background-image: url('../../Assets/img/contacts-bg.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -13,24 +13,24 @@
     }
     
     &__title {
-        margin-bottom: 45px;
+        margin-bottom: 10px;
         font-weight: 700;
-        font-size: 96px;
-        line-height: 112px;
+        font-size: 64px;
+        line-height: 75px;
         color: #FFFFFF;
     }
     &__subtitle{
         max-width: 844px;
         width: 100%;
         font-weight: 500;
-        font-size: 32px;
-        line-height: 45px;
+        font-size: 24px;
+        line-height: 36px;
         text-align: center;
         color: #FFFFFF;
     }
 }
 @media screen and (max-width: 900px) {
-    .jintro{
+    .contintro{
         &__title {
             font-weight: 700;
             font-size: 52px;
@@ -45,7 +45,7 @@
     }
 }
 @media screen and (max-width: 428px) {
-    .jintro{
+    .contintro{
         &__title {
             font-weight: 700;
             font-size: 52px;

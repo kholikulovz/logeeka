@@ -24,15 +24,15 @@ function Header() {
         <header className='header'>
             <div className="container">
                 <div className="header__nav">
-                    <img className='header__logo' src={Logo} alt="logo" />
+                    <NavLink to='/'><img className='header__logo' src={Logo} alt="logo" /></NavLink>
                     <div className='header__list'>
-                        <NavLink className='header__link' to='/'>Conference</NavLink>
-                        <NavLink className='header__link' to='/'>Articles</NavLink>
-                        <NavLink className='header__link' to='/'>Certificates</NavLink>
+                        <NavLink className='header__link' to='/conference'>Conference</NavLink>
+                        <NavLink className='header__link' to='/articles'>Articles</NavLink>
+                        <NavLink className='header__link' to='/certificates'>Certificates</NavLink>
                         <NavLink className='header__link' to='/'>Pricing</NavLink>
-                        <NavLink className='header__link' to='/'>Contacts</NavLink>
-                        <NavLink className='header__link' to='/'>Journal</NavLink>
-                        <NavLink className='header__link' to='/'>About us</NavLink>
+                        <NavLink className='header__link' to='/contacts'>Contacts</NavLink>
+                        <NavLink className='header__link' to='/journal'>Journal</NavLink>
+                        <NavLink className='header__link' to='/about'>About us</NavLink>
                     </div>
                     <button onClick={openBar} className='header__bar--open'><img src={Bar} alt="bar" /></button>
                     <div ref={barList} className="header__bar">

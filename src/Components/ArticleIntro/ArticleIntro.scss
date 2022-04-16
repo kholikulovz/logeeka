@@ -11,13 +11,81 @@
         justify-content: center;
         flex-direction: column;
     }
-    
     &__title {
         margin-bottom: 40px;
         font-weight: 400;
         font-size: 64px;
         line-height: 76px;
         color: #FFFFFF;
+        text-align: center;
     }
-
+    &__box{
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        background: #FFFFFF;
+        border-radius: 4px;
+        padding: 20px 0 20px 20px;
+    }
+    &__form{
+        margin-top: 50px;
+        // width: 100%;
+        background: #FFFFFF;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+    }
+    &__input{
+        max-width: 100%;
+        width: 418px;
+        border: none;
+        margin-left: 10px;
+    }
+    &__btn{
+        // width: 100%;
+        background: #1263B0;
+        border-radius: 0px 4px 4px 0px;
+        border: none;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 22px 46px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .artintro{
+        &__title {
+            font-weight: 700;
+            font-size: 52px;
+            line-height: 55px;
+        }
+    }
+}
+@media screen and (max-width: 670px) {
+    .artintro{
+        &__input{
+            max-width: 100%;
+            width: 280px;
+        }
+    }
+}
+@media screen and (max-width: 500px) {
+    .artintro{
+        &__input{
+            max-width: 100%;
+            width: 150px;
+        }
+    }
+}
+@media screen and (max-width: 428px) {
+    .artintro{
+        &__title {
+            font-weight: 700;
+            font-size: 52px;
+            line-height: 55px;
+            text-align: left;
+        }
+    }
 }

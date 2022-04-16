@@ -88,3 +88,31 @@
         color: #FFFFFF;
     }
 }
+
+@media screen and (max-width: 1250px) {
+    .confcards{
+        &__list{
+            justify-content: space-around;
+        }
+        &__item{
+           margin: 40px 0;
+        }
+    }
+}
+@media screen and (max-width: 875px) {
+    .confcards{
+        &__list{
+            justify-content: center;
+        }
+        &__item{
+           margin: 40px 20px 0 0;
+        }
+    }
+}
+@media screen and (max-width: 860px) {
+    .confcards{
+        &__item{
+           margin: 20px 5px;
+        }
+    }
+}
