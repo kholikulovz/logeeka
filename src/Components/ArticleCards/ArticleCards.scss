@@ -1,3 +1,28 @@
-// .artcards{
-  
-// }
+.artcards{
+    margin-top: 100px;
+    &__menu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    &__btn{
+        margin-right: 60px;
+        border: none;
+        background-color: #fff;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 38px;
+        color: #242424;
+        opacity: 0.7;
+        cursor: pointer;
+        &--active{
+            // font-weight: 600;
+            // font-size: 32px;
+            // line-height: 38px;
+            // color: #242424;
+            opacity: 1;
+        }
+    }
+}

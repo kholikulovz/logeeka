@@ -1,0 +1,110 @@
+.pricing{
+    margin: 150px 0;
+    &__navlink{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: rgba(36, 36, 36, 0.5);
+        &--active{
+            color: #228BCF;
+        }
+    }
+    &__title{
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 76px;
+        text-align: center;
+        color: #242424;
+        margin: 31px 0 51px 0;
+    }
+    &__menu{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__item{
+        max-width: 100%;
+        background: #FFFFFF;
+        border: 1px solid rgba(196, 196, 196, 0.2);
+        border-radius: 4px;
+        margin: 0 43px 40px 0;
+        padding: 30px;
+        &:nth-child(3){
+            margin-right: 0;
+        }
+    }
+    &__subtitle{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 34px;
+        color: #181059;
+    }
+    &__text{
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 36px;
+        color: #181059;
+        &--main{
+            width: 328px;
+            margin: 15px 0;
+        }
+        &--bold{
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 39px;
+        }
+        &--opacity{
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 29px;
+            opacity: 0.68;
+        }
+    }
+}
+@media screen and (max-width: 1290px) {
+    .pricing{
+        &__menu{
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        &__item{
+            max-width: 100%;
+            // &:nth-child(2){
+            //     margin-right: 0;
+            // }
+            &:nth-child(3){
+                margin-right: 43px;
+            }
+        }
+        &__text{
+            &--main{
+                max-width: 100%;
+            }
+        }
+    }
+}
+@media screen and (max-width: 900px) {
+    .pricing{
+        &__item{
+            padding: 30px 150px;
+            max-width: 100%;
+            margin: 20px;
+            &:nth-child(3){
+                margin-right: 20px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 670px) {
+    .pricing{
+        &__item{
+            padding: 30px;
+            max-width: 100%;
+            margin: 20px;
+            &:nth-child(3){
+                margin-right: 20px;
+            }
+        }
+    }
+}

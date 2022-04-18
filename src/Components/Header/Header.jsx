@@ -29,7 +29,7 @@ function Header() {
                         <NavLink className='header__link' to='/conference'>Conference</NavLink>
                         <NavLink className='header__link' to='/articles'>Articles</NavLink>
                         <NavLink className='header__link' to='/certificates'>Certificates</NavLink>
-                        <NavLink className='header__link' to='/'>Pricing</NavLink>
+                        <NavLink className='header__link' to='/pricing'>Pricing</NavLink>
                         <NavLink className='header__link' to='/contacts'>Contacts</NavLink>
                         <NavLink className='header__link' to='/journal'>Journal</NavLink>
                         <NavLink className='header__link' to='/about'>About us</NavLink>

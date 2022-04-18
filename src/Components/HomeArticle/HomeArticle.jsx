@@ -33,6 +33,69 @@ function HomeArticle() {
                 <span className="harticle__item-date">14 MAR 2022</span>
               </div>
             </li>
+            <li className="harticle__item">
+            <div className="harticle__item-box--res">
+                <span className="harticle__item-subtext">
+                  CARREERS EDITORIAL
+                </span>
+                <span className="harticle__item-line">|</span>
+                <span className="harticle__item-date">14 MAR 2022</span>
+              </div>
+              <h4 className="harticle__item-title">
+                Ways to strengthen financial control in the rational USE of
+                state...
+              </h4>
+              <p className="harticle__item-name">Xodjayev Erkin</p>
+              <div className=" harticle__item-box">
+                <span className="harticle__item-subtext">
+                  CARREERS EDITORIAL
+                </span>
+                <span className="harticle__item-line">|</span>
+                <span className="harticle__item-date">14 MAR 2022</span>
+              </div>
+            </li>
+            <li className="harticle__item">
+            <div className="harticle__item-box--res">
+                <span className="harticle__item-subtext">
+                  CARREERS EDITORIAL
+                </span>
+                <span className="harticle__item-line">|</span>
+                <span className="harticle__item-date">14 MAR 2022</span>
+              </div>
+              <h4 className="harticle__item-title">
+                Ways to strengthen financial control in the rational USE of
+                state...
+              </h4>
+              <p className="harticle__item-name">Xodjayev Erkin</p>
+              <div className=" harticle__item-box">
+                <span className="harticle__item-subtext">
+                  CARREERS EDITORIAL
+                </span>
+                <span className="harticle__item-line">|</span>
+                <span className="harticle__item-date">14 MAR 2022</span>
+              </div>
+            </li>
+            <li className="harticle__item">
+            <div className="harticle__item-box--res">
+                <span className="harticle__item-subtext">
+                  CARREERS EDITORIAL
+                </span>
+                <span className="harticle__item-line">|</span>
+                <span className="harticle__item-date">14 MAR 2022</span>
+              </div>
+              <h4 className="harticle__item-title">
+                Ways to strengthen financial control in the rational USE of
+                state...
+              </h4>
+              <p className="harticle__item-name">Xodjayev Erkin</p>
+              <div className=" harticle__item-box">
+                <span className="harticle__item-subtext">
+                  CARREERS EDITORIAL
+                </span>
+                <span className="harticle__item-line">|</span>
+                <span className="harticle__item-date">14 MAR 2022</span>
+              </div>
+            </li>
           </ul>
           <Link className="more__link" to={"/"}>
             More...{" "}

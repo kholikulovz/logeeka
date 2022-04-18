@@ -1,0 +1,98 @@
+.about{
+    margin: 100px 0px 115px 0px;
+    &__main{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    &__aside{
+        position: relative;
+        width: 758px;
+        max-width: 100%;
+        margin-left: 40px;
+    }
+    &__img{
+        max-width: 100%;
+    }
+    &__title{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 47px;
+        color: #242424;
+    }
+    &__text{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        color: #242424;
+        opacity: 0.7;
+        margin: 30px 0 40px;
+    }
+    &__btn{
+        position: absolute;
+        right: 0;
+        background: #1263B0;
+        border-radius: 4px;
+        padding: 18px 45px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+        width: 213px;
+    }
+    &__companies{
+        margin: 100px 0px 120px;
+    }
+    &__subtitle{
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 32px;
+        color: #000000;
+        opacity: 0.7;
+        margin-bottom: 30px;
+    }
+    &__subimg{
+        margin-right: 40px;
+        background: #F7F7F7;
+        border-radius: 4px;
+        padding: 10px 20px;
+        &--small{
+            padding: 10px 80px;
+        }
+    }
+    &__subtext{
+        margin-top: 123px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        color: #242424;
+        opacity: 0.7;
+    }
+    &__slide{
+        &-img{
+            padding: 10px 20px;
+            // height: 100px;
+            background: #F7F7F7;
+            border-radius: 4px;
+            &--small{
+                padding: 10px 80px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about{
+        &__main{
+            flex-direction: column-reverse;
+align-items: center;
+justify-content: center;
+        }
+        &__aside{
+            margin-bottom: 100px;
+            margin-left: 0;
+        }
+    }
+}

@@ -1,0 +1,62 @@
+.inconference{
+    margin: 150px 0;
+    &__left{
+        &-box{
+            margin-bottom: 30px;
+            display: flex;
+            align-items: center;
+        }
+        &-text{
+            margin-bottom: 0;
+        }
+        &-title{
+            margin-bottom: 4px;
+        }
+    }
+    &__box{
+        margin-left: 10px;
+    }
+    &__item{
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 30px;
+    }
+    &__icon{
+        margin-right: 10px;
+    }
+    &__name{
+        margin-left: 10px;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 16px;
+        color: #181818;
+        &--simple{
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 22px;
+            color: #808080;
+            margin-left: 10px;
+        }
+    }
+    &__list{
+        width: 276px;
+        display: flex;
+        align-items: center;
+        margin-top: 13px;
+        padding: 16px 13px;
+        background: #1263B0;
+border-radius: 4px;
+    }
+    &__link{
+        margin-right: 10px;
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+    &__btn{
+        padding: 9px;
+        background:#3475B4;
+        border-radius: 4px;
+        border: none;
+    }
+}
